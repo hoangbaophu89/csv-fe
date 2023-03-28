@@ -18,7 +18,7 @@ function App() {
           text.substring(index + search.length)}
       </div>
     }
-    return <div>{text}</div>
+    return <div style={{ display: "inline" }}>{text}</div>
   }, [search])
 
   useEffect(() => {
